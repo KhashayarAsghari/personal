@@ -1,0 +1,43 @@
+.header {
+    background-color: antiquewhite;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10%;
+    overflow: hidden;
+}
+
+.header__image {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar__item {
+    height: 70px;
+    padding: 0px 32px;
+    transition: .5s;
+    padding-top: 23px;
+    transform: translateY(4px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__item:hover {
+   
+    border-bottom: 4px solid rgb(255, 175, 71);
+    transform: translateY(0px);
+    transition: .5s;
+}
+
+
+
+
